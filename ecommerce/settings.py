@@ -128,3 +128,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
+
+
+CSRF_TRUSTED_ORIGINS = ['https://https://web-production-2fc5.up.railway.app']
